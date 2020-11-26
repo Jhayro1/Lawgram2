@@ -5,14 +5,16 @@ $(document).ready(function () {
     var btnSiguiente = $('#btnSiguiente1');
   
     $('#slider1 .slide1:last').insertBefore('#slider1 .slide1:first');
+    slider.css('margin-left', '-75%');
   
   
     function moverDerecha() {
       if (!slider.is(':animated')) {
         slider.animate({
-          marginLeft: '-100%'
+        marginLeft: '-159.6%'
         }, 700, function () {
           $('#slider1 .slide1:first').insertAfter('#slider1 .slide1:last');
+        slider.css('margin-left', '-75%');
           resetInterval();
         });
       }
@@ -24,8 +26,9 @@ $(document).ready(function () {
     function moverIzquierda() {
       if (!slider.is(':animated')) {
         $('#slider1 .slide1:last').insertBefore('#slider1 .slide1:first');
-        slider.css('margin-left', '-100%');
+      slider.css('margin-left', '-159.6%');
         slider.animate({
+        marginLeft: '-75%'
         }, 700, function () {
           resetInterval()
         });

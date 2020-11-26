@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+  
   function myFunction(x) {
     if (x.matches) { 
       $('#slidepe1').attr('src','img/slide111.jpg');

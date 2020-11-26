@@ -14,8 +14,7 @@ var propTabs2 = {
 var metTabs2 = {
 	
 	inicio: function(){
-		propTabs2.primer_encabezado.className = 'active';
-		propTabs2.primer_contenido.className = 'active';
+		
 
 		for (var i = 0; i < propTabs2.enlaces_encabezado.length; i++) {
 			propTabs2.enlaces_encabezado[i].addEventListener('click', metTabs2.evento);

@@ -1060,14 +1060,6 @@ footer .footer-redes a:hover{
   .main .contacto .contenedor-formulario .formulario form input[type="text"], .main .contacto .contenedor-formulario .formulario form input[type="email"], .main .contacto .contenedor-formulario .formulario form textarea{
     text-align: center;
   }
-
-}
-@media screen and (max-width :820px){
-  .modal1 img{
-    width: 600px;
-  }
-  
-  
   .modal .textos-modal, .modal1 .textos-modal {
     margin-top: 20px;
     text-align: center;
@@ -1093,6 +1085,15 @@ footer .footer-redes a:hover{
   
   
   }
+
+}
+@media screen and (max-width :820px){
+  .modal1 img{
+    width: 600px;
+  }
+  
+  
+  
   
   .modal .btn-cerrar,.modal1 .btn-cerrar{
     position: fixed;
@@ -1111,22 +1112,6 @@ footer .footer-redes a:hover{
     line-height: 50px;
   }
   
- /*.main .modal .contenedor-modal .contenedor-slide .slider1 .slide1 img{
-   src: url(../img/slide111.jpg);
-  }
-.main .modal .contenedor-modal .contenedor-slide .slider1  #slidepe2{
-    src: url(../img/slide211.jpg);
-  }
-
-.main .modal .contenedor-modal .contenedor-slide .slider1  #slidepe3{
-    src: url(../img/slide311.jpg);
-  }
-
-.main .modal .contenedor-modal .contenedor-slide .slider1  #slidepe4{
-    src: url(../img/slide411.jpg);
-  } */
-
-
 
 }
 

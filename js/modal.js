@@ -53,7 +53,7 @@ $(document).ready(function () {
   $('.bene-persona3').on('click', function () {
 
     var rutaImagen = $(this).attr('src');
-    var modal = '<div class="modal1" id="modal1"><div class="contenedor-modal"><img src="'+ rutaImagen  +'" alt=""><div class="textos-modal"><h2>Informacion detallada</h2><p>Podras tener informacion detallada de los abogados</p></div></div><div class="btn-cerrar" id="btnCerrar"><i class="fa fa-times" aria-hidden="true"></i></div></div>';
+    var modal = '<div class="modal1" id="modal1"><div class="contenedor-modal"><img src="'+ rutaImagen  +'" alt=""><div class="textos-modal"><h2>Control de proceso</h2><p>Podras tener un control total de tu proceso gracias a nuestra plataforma</p></div></div><div class="btn-cerrar" id="btnCerrar"><i class="fa fa-times" aria-hidden="true"></i></div></div>';
 
     $('#beneficios').after(modal);
 
